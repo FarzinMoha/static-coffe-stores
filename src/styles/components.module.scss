@@ -1,0 +1,40 @@
+@import "./styles.scss";
+.title {
+  font-size: clamp(30px, 5vw, 60px);
+  color: var(--text-white-100);
+  font-weight: 900;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+.card {
+  @include flexCenterCenter;
+  @include glass;
+  flex-direction: column;
+  width: 300px !important;
+  height: 300px !important;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.cardTitle {
+  color: var(--text-purple-dark);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cardImage{
+    width: 100%;
+    margin-top: 10px;
+    height: 85%;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
