@@ -5,5 +5,6 @@ export type childrenType = {
 }
 export type CardType = {
     title:string
+    url:string
     image?:string
 }

@@ -5,8 +5,9 @@
     padding: 0px 20px;
     & .container{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: flex-start;
         flex-wrap: wrap;
+        text-align: left;
     }
 }

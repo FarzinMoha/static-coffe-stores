@@ -2,7 +2,8 @@ import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.scss'
 import Title from '@/components/title/Title'
-import Card from '@/components/card/Card'
+import data from'../../data/data.json'
+import CardList from '@/components/CardList/CardList'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,30 +19,7 @@ export default function Home() {
       <main className={styles.main}>
           <Title>salam</Title>
           <section className={styles.container}>
-          <Card title='salam man f' image='/assets/1.jpeg' />
-          <Card title='salam man f' image='/assets/1.jpeg' />
-          <Card title='salam man f' image='/assets/1.jpeg' />
-          <Card title='salam man f' image='/assets/1.jpeg' />
-          <Card title='salam man f' image='/assets/1.jpeg' />
-          <Card title='salam man f' image='/assets/1.jpeg' />
-          <Card title='salam man f' image='/assets/1.jpeg' />
-          <Card title='salam man f' image='/assets/1.jpeg' />
-          <Card title='salam man f' image='/assets/1.jpeg' />
-          <Card title='salam man f' image='/assets/1.jpeg' />
-          <Card title='salam man f' image='/assets/1.jpeg' />
-          <Card title='salam man f' image='/assets/1.jpeg' />
-          {/* <Card title='salam man f' image='/assets/1.jpeg' /> */}
-          <Card title='salam man f' image='/assets/1.jpeg' />
-          <Card title='salam man f' image='/assets/1.jpeg' />
-          <Card title='salam man f' image='/assets/1.jpeg' />
-          <Card title='salam man f' image='/assets/1.jpeg' />
-          <Card title='salam man f' image='/assets/1.jpeg' />
-          <Card title='salam man f' image='/assets/1.jpeg' />
-          <Card title='salam man f' image='/assets/1.jpeg' />
-          <Card title='salam man f' image='/assets/1.jpeg' />
-          <Card title='salam man f' image='/assets/1.jpeg' />
-          <Card title='salam man f' image='/assets/1.jpeg' />
-          <Card title='salam man f' image='/assets/1.jpeg' />
+            <CardList data={data}/>
           </section>
       </main>
     </>

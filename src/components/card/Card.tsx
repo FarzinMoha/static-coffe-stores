@@ -1,15 +1,19 @@
 import React from 'react'
 import style from '../../styles/components.module.scss'
-import { CardType, childrenType } from '@/types/Types'
+import { CardType } from '@/types/Types'
 import CardTitle from './CardTitle'
 import Image from 'next/image'
+import Link from 'next/link'
 
-const Card = ({title , image}:CardType) => {
+const Card = ({title , image , url}:CardType) => {
   return (
-    <div className={style.card}>
-        <CardTitle>{title}</CardTitle>
-        {image && <Image className={style.cardImage} src={image} alt={title} width={900} height={300} />}
-    </div>
+    <Link href={url}>
+            <div className={style.card}>
+                <CardTitle>{title}</CardTitle>
+                {image && <Image className={style.cardImage} src={image} alt={title} width={400} height={200} />}
+            </div>
+    </Link>
+
   )
 }
 

@@ -1,0 +1,74 @@
+[
+    {
+      "id": 0,
+      "name": "StrangeLove Coffee",
+      "imgUrl": "https://images.pexels.com/photos/685529/pexels-photo-685529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "websiteUrl": "https://www.strangelovecoffee.ca/",
+      "address": "983 Queen St E, Toronto, ON M4M 1K2",
+      "neighbourhood": "at King and Spadina"
+    },
+    {
+      "id": 1,
+      "name": "Dark Horse Coffee",
+      "imgUrl": "https://images.pexels.com/photos/2159156/pexels-photo-2159156.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "websiteUrl": "https://www.sdasdsadsd.com/",
+      "address": "01 King St W",
+      "neighbourhood": "Richmond and Spadina"
+    },
+    {
+      "id": 2,
+      "name": "Route 300",
+      "imgUrl": "https://images.pexels.com/photos/2159093/pexels-photo-2159093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "websiteUrl": "https://www.rawefdfdafdsa.com/",
+      "address": "401 Richmond St W",
+      "neighbourhood": "Spadina Richmond"
+    },
+    {
+      "id": 3,
+      "name": "rawe Coffee",
+      "imgUrl": "https://images.pexels.com/photos/2347378/pexels-photo-2347378.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "websiteUrl": "https://www.dfoi34mnkf.com/",
+      "address": "Spadina St W",
+      "neighbourhood": "Neighbourhood rivera"
+    },
+    {
+      "id": 4,
+      "name": "Coffee House",
+      "imgUrl": "https://images.pexels.com/photos/2456424/pexels-photo-2456424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "websiteUrl": "https://www.cxkcjsad.com/",
+      "address": "rivera Chmond St W",
+      "neighbourhood": "di minto niera"
+    },
+    {
+      "id": 5,
+      "name": "Mipento",
+      "imgUrl": "https://images.pexels.com/photos/7593823/pexels-photo-7593823.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "websiteUrl": "https://www.asfaldsfhsl.com/",
+      "address": "alcuni ranieri",
+      "neighbourhood": "racconto square "
+    },
+    {
+      "id": 6,
+      "name": "Routerdom",
+      "imgUrl": "https://images.pexels.com/photos/1233534/pexels-photo-1233534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "websiteUrl": "https://www.rkhorseespre.com/",
+      "address": "di canto bella",
+      "neighbourhood": "Route 300 Neighbourhood"
+    },
+    {
+      "id": 7,
+      "name": "Mi sono Coffee",
+      "imgUrl": "https://images.pexels.com/photos/414628/pexels-photo-414628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "websiteUrl": "https://www.orseespressons.com/",
+      "address": " Richmond St W",
+      "neighbourhood": "300 Neighbourhood street"
+    },
+    {
+      "id": 8,
+      "name": "300",
+      "imgUrl": "https://images.pexels.com/photos/302897/pexels-photo-302897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "websiteUrl": "https://www.darkhorseespressdsdaso.com/",
+      "address": "striare Richmond St W",
+      "neighbourhood": "Route Neighbourhood"
+    }
+  ]
